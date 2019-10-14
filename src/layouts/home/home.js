@@ -75,8 +75,8 @@ class Home extends Component {
 
 
         let secret = config.secret;
-        let client = 'tickets';
-        let endpoint = `https://jaredsoftwareshelp.zendesk.com/oauth/authorizations/new?response_type=token&redirect_uri=${'http://localhost:3000'}&client_id=${client}&scope=read%20write`;
+        let client = 'tickets_compucloud';
+        let endpoint = `https://soportecompucloud.zendesk.com/oauth/authorizations/new?response_type=token&redirect_uri=${'http://localhost:3000'}&client_id=${client}&scope=read%20write`;
 
         window.location = endpoint;
 
