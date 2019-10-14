@@ -19,8 +19,8 @@ import API from '../../axios';
 
 import axios from 'axios';
 
-// shortID library 
-const shortid = require('shortid');
+//  functions 
+const {generateRandomNumber} = require('../../functions/functions');
 
 
 
@@ -106,7 +106,7 @@ class Home extends Component {
 
         this.setState({...this.state, loading:true},  () => {
 
-            let number = shortid.generate();
+            let number = generateRandomNumber();
 
             API.post('https://d1fs5qlheb.execute-api.us-east-2.amazonaws.com/test/',
             { 
