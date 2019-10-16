@@ -108,7 +108,7 @@ class Home extends Component {
 
             let number = generateRandomNumber();
 
-            API.post('https://d1fs5qlheb.execute-api.us-east-2.amazonaws.com/test/',
+            API.post('https://b0k8e26j66.execute-api.us-west-2.amazonaws.com/BetaVersion',
             { 
             'user':this.state.usuario.nombreDeUsuario.valor , 
             'token':this.state.token, 
