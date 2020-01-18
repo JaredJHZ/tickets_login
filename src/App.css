@@ -21,3 +21,41 @@
     width: 130px;
 }
 
+.tarjeta {
+    width: 40%;
+    height: 80%;
+    background-color: #009dde;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta p {
+    text-align: center;
+    font-size: 2vw;
+}
+
+.rowTarjeta {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.deck {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.deck .tarjeta {
+    margin: 30px;
+}
+

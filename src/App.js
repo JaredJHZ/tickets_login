@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Home from './layouts/home/home';
-import {BrowserRouter} from 'react-router-dom';
+import Tutorial from "./layouts/tutorial/tutorial";
+
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
@@ -13,7 +15,15 @@ function App() {
           crossOrigin="anonymous"
         />
         <BrowserRouter>
-          <Home />
+          <Switch>
+            <Route exact path="/tutorial">
+              <Tutorial />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+
+          </Switch>
         </BrowserRouter>
     </div>
   );

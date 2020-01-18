@@ -166,6 +166,7 @@ class Home extends Component {
                             <div className="contenedor titulo">
                                 <h1>Tickets Compucloud</h1>
                             </div>
+
                             <div className={"contenedor info"}>
                                <h3>Es necesario que inicie sesión en Zendesk</h3>
                             </div>
