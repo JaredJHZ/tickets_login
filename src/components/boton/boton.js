@@ -5,7 +5,7 @@ import {Button} from 'react-bootstrap';
 let boton = (props) => {
 
     return (
-        <Button onClick={props.click} variant={props.variante}>
+        <Button style={{background:'#4babe3'}} onClick={props.click} variant={props.variante}>
             {props.texto}
         </Button>
     );

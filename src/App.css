@@ -1,11 +1,12 @@
 .color-azul {
-    background-color: #009DDE;
+    background-color: #EEFCFD;
     padding: 5%;
-    color: white;
-    height: 92vh;
+    color: black;
+    height: 81vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
 
 }
 
@@ -18,32 +19,27 @@
 }
 
 .logo {
-    width: 130px;
+    width: 180px;
+    margin-left: 10px;
 }
 
 .tarjeta {
-    width: 40%;
-    height: 80%;
+    width: 80%;
     background-color: #009dde;
-    padding: 30px;
-    border-radius: 10px;
-    color: white;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
+    border-radius: 15px;
+    height: 88%;
 }
 
 .tarjeta p {
     text-align: center;
-    font-size: 2vw;
+    font-size: 22px;
 }
 
 .rowTarjeta {
+    text-emphasis: center;
+    height: 600px;
+    padding: 1px;
     display: flex;
-    width: 100%;
-    align-items: center;
-    height: 300px;
     justify-content: center;
 }
 
@@ -52,10 +48,86 @@
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
+
+
+.light-blue {
+    background: #EEFCFD;
+}
+
+.contact-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 36px;
+    color: #009DDE;
+    font-size: 14px;
+}
+
+.contact-bar-text {
+    padding:2px;
+    margin-right: 5px;
+}
+
+.contact-bar-text:hover {
+    text-decoration: none;
+    color: #009DDE;
+}
+
+.phone {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
     align-content: center;
+    align-items: center;
+    margin-right: 15px;
 }
 
-.deck .tarjeta {
-    margin: 30px;
+.row {
+    width: 100%;
+    overflow: hidden;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
+.tarjeta-body {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tarjeta-body p {
+    text-align: center;
+    font-size: 32px;
+}
+
+.tarjeta-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.elemento{
+    width: 100%;
+}
+
+.arrow {
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    font-weight: bold;
+}

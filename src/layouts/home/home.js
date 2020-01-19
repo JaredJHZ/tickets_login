@@ -134,9 +134,6 @@ class Home extends Component {
                     <div>
                         <Toolbar image={Logo} />
                         <div className="color-azul">
-                            <div className="contenedor titulo">
-                                <h1>Tickets Compucloud</h1>
-                            </div>
                             <div className="contenedor info">
                                 <h3>Elija el nombre de usuario que tendrá en la skill de tickets compucloud</h3>
                             </div>
@@ -163,10 +160,6 @@ class Home extends Component {
                         <div>
                         <Toolbar image={Logo} />
                         <div className="color-azul">
-                            <div className="contenedor titulo">
-                                <h1>Tickets Compucloud</h1>
-                            </div>
-
                             <div className={"contenedor info"}>
                                <h3>Es necesario que inicie sesión en Zendesk</h3>
                             </div>
@@ -184,9 +177,6 @@ class Home extends Component {
                         <div>
                         <Toolbar image={Logo} />
                         <div className="color-azul">
-                            <div className="contenedor titulo">
-                                <h1>Tickets Compucloud</h1>
-                            </div>
                             <div className={"contenedor info"}>
                                <h3>Su clave de acceso a la skill es</h3>
                             </div>
@@ -207,9 +197,6 @@ class Home extends Component {
                 <div>
                     <Toolbar image={Logo} />
                     <div className="color-azul">
-                        <div className="contenedor titulo">
-                            <h1>Tickets Compucloud</h1>
-                        </div>
                         <div className={"contenedor info"}>
                             <Loading />
                         </div>
